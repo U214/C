@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9CDC607C-FDB7-4C68-8036-981F7286F37A}</ProjectGuid>
+    <ProjectGuid>{488E7EF0-5CBC-493C-B053-054F87A1E6FE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Chapter12</RootNamespace>
+    <RootNamespace>Chapter14</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,9 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="01_ArrayParam.c" />
+    <ClCompile Include="02_ArrayParamAccess.c" />
+    <ClCompile Include="03_CallByValueSwap.c" />
+    <ClCompile Include="04_CallByRefSwap.c" />
     <ClCompile Include="HW_1.c" />
     <ClCompile Include="HW_2.c" />
-    <ClCompile Include="PointerOperation.c" />
+    <ClCompile Include="HW_3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

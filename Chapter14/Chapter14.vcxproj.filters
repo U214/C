@@ -15,13 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PointerOperation.c">
+    <ClCompile Include="01_ArrayParam.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02_ArrayParamAccess.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="03_CallByValueSwap.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04_CallByRefSwap.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HW_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HW_2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HW_3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
