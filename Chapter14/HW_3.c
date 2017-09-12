@@ -14,10 +14,10 @@
 #pragma warning(disable : 4996)
 #include <stdio.h>
 
-int main19(void)
+int main(void)
 {
 	int length = 0;
-	char str[50], flag = 'y';
+	char str[50];
 
 	printf("단어를 입력하시오 : ");
 	scanf("%s", str);
@@ -28,16 +28,12 @@ int main19(void)
 
 	for (int i = 0; i < length / 2; i++) {
 		if (str[i] != str[length - i - 1]) {
-			flag = 'n';
+			printf("회문이 아닙니다. \n");
+			return 0;
 		}
 	}
 
-	if (flag == 'y') {
-		printf("회문입니다. \n");
-	}
-	else {
-		printf("회문이 아닙니다. \n");
-	}
+	printf("회문입니다. \n");
 
 	return 0;
 }
