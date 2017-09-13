@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_ArrayParam.c">
+    <ClCompile Include="01_TwoDimArraySize.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="02_ArrayParamAccess.c">
+    <ClCompile Include="02_PopuResearch.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03_CallByValueSwap.c">
+    <ClCompile Include="03_TwoDimArrayAddr.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="04_CallByRefSwap.c">
+    <ClCompile Include="04_TwoDimArrayInit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_ThreeDimArraySize.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="06_ThreeDimArrayAccess.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HW_1.c">
@@ -34,9 +40,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HW_3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="bubbleSort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

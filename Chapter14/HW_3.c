@@ -14,7 +14,7 @@
 #pragma warning(disable : 4996)
 #include <stdio.h>
 
-int main(void)
+int main19(void)
 {
 	int length = 0;
 	char str[50];
