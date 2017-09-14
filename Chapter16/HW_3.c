@@ -10,7 +10,7 @@
 #pragma warning(disable : 4996)
 #include <stdio.h>
 
-int main(void)
+int main29(void)
 {
 	char* informationArr[2][4] = { NULL };
 	int gradeArr[4][4] = { 0 };
