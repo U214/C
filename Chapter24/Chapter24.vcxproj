@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DCC598EA-74B1-4A5E-92C4-2DE5E50E0667}</ProjectGuid>
+    <ProjectGuid>{4D93DBD8-8992-4A20-9D96-2C6EEE0A458C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Chapter23</RootNamespace>
+    <RootNamespace>Chapter24</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,18 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_TypeNameTypedef.c" />
-    <ClCompile Include="02_StructTypedef.c" />
-    <ClCompile Include="03_StructValAndFunction.c" />
-    <ClCompile Include="04_StructMemArrCopy.c" />
-    <ClCompile Include="05_StructFunctionCallByRef.c" />
-    <ClCompile Include="06_StructOperation.c" />
-    <ClCompile Include="07_StructAddMin.c" />
-    <ClCompile Include="08_StructImportant.c" />
-    <ClCompile Include="09_CircleIncludePoint.c" />
-    <ClCompile Include="10_UnionMemAlloc.c" />
-    <ClCompile Include="11_UnionValAccess.c" />
-    <ClCompile Include="12_EnumTypeTone.c" />
+    <ClCompile Include="01_FirstFileWrite.c" />
+    <ClCompile Include="02_FirstFileRead.c" />
+    <ClCompile Include="03_TextDataFileWrite.c" />
+    <ClCompile Include="04_TextDataFileRead.c" />
+    <ClCompile Include="05_TextCharFileCopy.c" />
+    <ClCompile Include="06_TextStringFileCopy.c" />
+    <ClCompile Include="07_MoveFileReWrPos.c" />
+    <ClCompile Include="08_TellFileReWrPos.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

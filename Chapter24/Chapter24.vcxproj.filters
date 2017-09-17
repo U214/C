@@ -15,40 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_TypeNameTypedef.c">
+    <ClCompile Include="01_FirstFileWrite.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="02_StructTypedef.c">
+    <ClCompile Include="02_FirstFileRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="03_StructValAndFunction.c">
+    <ClCompile Include="03_TextDataFileWrite.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="04_StructMemArrCopy.c">
+    <ClCompile Include="04_TextDataFileRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="05_StructFunctionCallByRef.c">
+    <ClCompile Include="05_TextCharFileCopy.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="06_StructOperation.c">
+    <ClCompile Include="06_TextStringFileCopy.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="07_StructAddMin.c">
+    <ClCompile Include="07_MoveFileReWrPos.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="08_StructImportant.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="09_CircleIncludePoint.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10_UnionMemAlloc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11_UnionValAccess.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="12_EnumTypeTone.c">
+    <ClCompile Include="08_TellFileReWrPos.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
